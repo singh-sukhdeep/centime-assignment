@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/centime-assignment/static/css/main.e4264f3e.css",
+    "main.js": "/centime-assignment/static/js/main.534fdb7b.js",
+    "static/js/787.a8d5bc3b.chunk.js": "/centime-assignment/static/js/787.a8d5bc3b.chunk.js",
+    "static/media/logo.svg": "/centime-assignment/static/media/logo.e3aaf2eef07e7d2aced5d2731f49720d.svg",
+    "index.html": "/centime-assignment/index.html",
+    "static/media/getFetch.cjs": "/centime-assignment/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e4264f3e.css.map": "/centime-assignment/static/css/main.e4264f3e.css.map",
+    "main.534fdb7b.js.map": "/centime-assignment/static/js/main.534fdb7b.js.map",
+    "787.a8d5bc3b.chunk.js.map": "/centime-assignment/static/js/787.a8d5bc3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4264f3e.css",
+    "static/js/main.534fdb7b.js"
+  ]
+}
