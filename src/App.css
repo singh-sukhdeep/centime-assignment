@@ -1,15 +1,7 @@
-.App {
-  text-align: center;
+
+
+
+
+.App{
+  padding: 1rem;
 }
-
-
-
-.App-header{
-  display: flex;
-  background-color: #006065;
-  padding: 1rem 1.5rem;
-  align-items: center;
-  justify-content: space-between;
-}
-
-

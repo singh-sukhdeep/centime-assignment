@@ -1,18 +1,25 @@
 
 import { createSlice } from '@reduxjs/toolkit'
+import { getItem, setItem } from '../services/storage.service';
+import { LANG_KEY } from '../utils/constant';
+
+
+const defaultlang = getItem(LANG_KEY) || 'en';
+
 
 export const appSlice = createSlice({
     name: 'appState',
     initialState: {
         appMode: 'light',
-        appLanguage: 'en'
+        appLanguage: defaultlang
     },
     reducers: {
         changeAppMode: (state) => {
             state.appMode = 'dark';
         },
-        changeAppLanguage: (state) => {
-            state.appLanguage = 'hi'
+        changeAppLanguage: (state, action) => {
+            setItem(LANG_KEY, action.payload);
+            state.appLanguage = action.payload;
         }
     },
 })

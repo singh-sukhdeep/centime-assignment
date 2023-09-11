@@ -1,0 +1,16 @@
+{
+    "title": "Welcome to react using react-i18next",
+    "transaction": {
+        "transactionFlow": "Transactions Flow"
+    },
+    "sankey": {
+        "expenseVisualization": "Expense Visualization"
+    },
+    "expenseForm":{
+        "fromLabel":"From",
+        "expenseLabel":"Expense Label",
+        "amountLabel":"Amount",
+        "resetButton":"Reset",
+        "submitButton":"Submit"
+    }
+}

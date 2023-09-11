@@ -1,0 +1,12 @@
+
+
+.App-header{
+    display: flex;
+    background-color: var(--primary);
+    padding: 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  

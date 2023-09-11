@@ -1,0 +1,15 @@
+{
+    "transaction": {
+        "transactionFlow": "लेन-देन प्रवाह"
+    },
+    "sankey": {
+        "expenseVisualization": "व्यय विज़ुअलाइज़ेशन"
+    },
+    "expenseForm": {
+        "fromLabel": "व्यय से",
+        "expenseLabel": "व्यय लेबल",
+        "amountLabel": "धन राशि",
+        "resetButton": "पूर्ववत",
+        "submitButton": "जमा करें"
+    }
+}
