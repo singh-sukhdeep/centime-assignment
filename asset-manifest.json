@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/centime-assignment/static/css/main.69ccfc1f.css",
-    "main.js": "/centime-assignment/static/js/main.b8f309eb.js",
+    "main.js": "/centime-assignment/static/js/main.a98d5768.js",
     "static/js/787.a8d5bc3b.chunk.js": "/centime-assignment/static/js/787.a8d5bc3b.chunk.js",
-    "static/media/logo.svg": "/centime-assignment/static/media/logo.e3aaf2eef07e7d2aced5d2731f49720d.svg",
+    "static/media/logo.svg": "/centime-assignment/static/media/logo.fa2812429c8aaf7274b064ac346c75da.svg",
     "index.html": "/centime-assignment/index.html",
     "static/media/getFetch.cjs": "/centime-assignment/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.69ccfc1f.css.map": "/centime-assignment/static/css/main.69ccfc1f.css.map",
-    "main.b8f309eb.js.map": "/centime-assignment/static/js/main.b8f309eb.js.map",
+    "main.a98d5768.js.map": "/centime-assignment/static/js/main.a98d5768.js.map",
     "787.a8d5bc3b.chunk.js.map": "/centime-assignment/static/js/787.a8d5bc3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69ccfc1f.css",
-    "static/js/main.b8f309eb.js"
+    "static/js/main.a98d5768.js"
   ]
 }
