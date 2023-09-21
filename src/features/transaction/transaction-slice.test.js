@@ -1,5 +1,10 @@
 import reducer, { addTransaction, updateTransaction, deleteTransaction } from './transaction-slice';
 
+const intialState = {
+    transactions: [],
+    status: 'idle',
+    error: null
+};
 test('should return the initial state', () => {
     expect(reducer(undefined, { type: undefined })).toEqual({
         transactions: [],
@@ -9,10 +14,66 @@ test('should return the initial state', () => {
 })
 
 
-test('should handle a todo being added to an empty list', () => {
-    const previousState = []
+test('Transaction add transaction ', () => {
+    const previousState = intialState;
 
-    expect(reducer(previousState, todoAdded('Run the tests'))).toEqual([
-        { text: 'Run the tests', completed: false, id: 0 }
-    ])
-})
+    expect(reducer(
+        previousState,
+        addTransaction({
+            from: 'Incomes',
+            amount: 5000,
+            expenseLabel: 'Salary'
+        })
+    )).toEqual(
+        {
+            transactions: [
+                {
+                    from: 'Incomes',
+                    amount: 5000,
+                    expenseLabel: 'Salary'
+                }
+            ],
+            status: 'idle',
+            error: null
+        }
+    )
+});
+
+
+test('Transaction  update transaction ', () => {
+
+    const previousState = {
+        transactions: [
+            {
+                from: 'Incomes',
+                amount: 5000,
+                expenseLabel: 'Salary'
+            }
+        ],
+        status: 'idle',
+        error: null
+    };
+
+    expect(reducer(
+        previousState,
+        addTransaction({
+            from: 'Incomes',
+            amount: 3000,
+            expenseLabel: 'Salary'
+        })
+    )).toEqual(
+        {
+            transactions: [
+                {
+                    from: 'Incomes',
+                    amount: 3000,
+                    expenseLabel: 'Salary'
+                }
+            ],
+            status: 'idle',
+            error: null
+        }
+    )
+});
+
+

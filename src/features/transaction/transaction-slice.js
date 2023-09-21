@@ -17,8 +17,8 @@ export const transactionSlice = createSlice({
         error: null
     },
     reducers: {
-        addTransaction: (state,action)=>{
-            addTransactionReducer(state,action)
+        addTransaction: (state, action) => {
+            addTransactionReducer(state, action)
         },
         updateTransaction: (state) => {
             // TODO needs implementation
@@ -74,7 +74,7 @@ export const fetchTransactions = createAsyncThunk('transaction/fetchTransactions
             expenseLabel: 'Phone Bill'
         }
     ]
-})
+});
 
 
 // State Selectors

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
-
 import { addTransaction, fetchTransactions, selectAllTransactions } from './transaction-slice';
 import Sankey from '../../components/sankey-component/Sankey';
 import { extractSelectValuesFromTransactions, mapExpenseToSankey } from './transaction.service';
@@ -19,7 +18,7 @@ export default function TransactionComponent() {
     const [fromValuesSelectable, setFromValuesSelectable] = useState([{ label: 'Incomes', values: 'Incomes' }]);
     const [editForm, setEditForm] = useState(null);
 
-    // Translation
+
     const { t } = useTranslation();
 
 

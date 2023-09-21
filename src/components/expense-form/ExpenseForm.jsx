@@ -64,10 +64,10 @@ export default function ExpenseForm({
                             value={formik.values.from}
                             onChange={formik.handleChange}
                         >
-                            {fromSelectValues.map((fromSelectValue) => {
+                            {fromSelectValues.map((fromSelectValue, index) => {
                                 return (
                                     <option
-                                        key={fromSelectValue.value}
+                                        key={index}
                                         value={fromSelectValue.value}
                                     >
                                         {fromSelectValue.label}

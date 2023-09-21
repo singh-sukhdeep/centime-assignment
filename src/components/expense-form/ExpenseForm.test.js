@@ -58,7 +58,8 @@ test("ExpenseForm handles Form Submit ", async () => {
 
 test('Expense Form snapshot test', () => {
   const component = renderer.create(
-    <ExpenseForm onExpenseSubmit={handleFormSubmit} fromSelectValues={selectValues} />
+    <ExpenseForm onExpenseSubmit={handleFormSubmit}
+     fromSelectValues={selectValues} />
   );
   let tree = component.toJSON();
   expect(tree).toMatchSnapshot();
