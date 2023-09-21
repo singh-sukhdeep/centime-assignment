@@ -13,7 +13,7 @@ export default function TransactionComponent() {
 
     const dispatch = useDispatch();
     const transactions = useSelector(selectAllTransactions);
-    const transactionStatus = useSelector((state) => state.transaction.status);
+    const transactionStatus = useSelector((state) => state?.transaction?.status);
 
     const [expenseChartData, setExpenseChartData] = useState([]);
     const [fromValuesSelectable, setFromValuesSelectable] = useState([{ label: 'Incomes', values: 'Incomes' }]);

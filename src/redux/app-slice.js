@@ -27,8 +27,8 @@ export const appSlice = createSlice({
 export const { changeAppMode, changeAppLanguage } = appSlice.actions;
 
 
-export const selectAppMode = (state) => state?.appState.appMode;
+export const selectAppMode = (state) => state?.appState?.appMode;
 
-export const selectAppLanguage = (state) => state?.appState.appLanguage;
+export const selectAppLanguage = (state) => state?.appState?.appLanguage;
 
 export default appSlice.reducer;
